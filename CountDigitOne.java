@@ -1,22 +1,23 @@
-// /*Hard 3
+// Hard 3
 // Given an integer n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n.
 // Example 1:
 // Explanation:
-// Approach: By using loops recursive calls in java
-//   In this program i have considered 2 functions- CountDigitOne and countsOnesInNumber .
-//         1)In first function CountDigitOne is created to count the occurrences of the digit '1' in numbers from 1 to n
-//         2)Inside the  loop of first function, it calls the method countOnesInNumber(i) to count the number of occurrences of the digit '1' in the current value of i
+// Approach: I have used brute-force approach by iterating through numbers from 1 and counting the occurrences of the digit '1' in each number. 
+           The helper method is responsible for counting the occurrences of '1' in a single number. 
+           It has a time complexity of O(n log n) due to the nested loop structure.
+//    1)In this program i have considered 2 functions- CountDigitOne and countsOnesInNumber .
+//    2)In first function CountDigitOne is created to count the occurrences of the digit '1' in numbers from 1 to n
+//    3)Inside the  loop of first function, it calls the method countOnesInNumber(i) to count the number of occurrences of the digit '1' in the current value of i
 //           and adds it to the total count.
-
-//         In countDigitOne function :
+      4)In countDigitOne function :
 //         i have initalized counter,and a for loop is run from 1 to n to get the count and inside this loop their is a recursive function called countOnesInNumber 
 //         which repeatedly checks for each number whether there are any 1s present.And therefore it returns a count in end.
-        
-//         In countsOnesInNumber function :
+      5)In countsOnesInNumber function :
 //         i have initalized counter i check each number whether it is greater than 0 if consition in while is satisfied then i use modulo operator to get the remainder.
 //         if remainder is equal to 1 then i increment the count and return the count and i  repeat recursively for each number between 1 to n.
 //         Suppose there is is 2 digit number between 1 to n to check each digit i hav even used divider operator which helps me to get quotient and anlayze the remainder for each digit and check how many 1s are present between 1 to n.
-//         /*
+//        
+
 
           
           
