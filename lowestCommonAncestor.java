@@ -3,7 +3,11 @@
 // Explanation:
 // In this program
 //       The algorithm or approach used in this code is a recursive approach
-//       1)Since a binary Search tree is made of root node ,left child and right child
+//       1)A binary Search tree is made of root node ,left child and right child.Since it is binary search tree i have kept in mind 
+ //        the conditions required to meet it they are like
+//             a)leftsubtree<root node
+//              b)rightsubtree>rootnode
+ //             c)right and left subtrees are also bst with no duplicates       
 //       so i have created a static class TreeNde which declares variables for root node, left child and right child.
 //       2)Then i have created a constructor to initalizes the node with a given value and setting both left and right child references to null.
 //       3) here i have created a function lowestCommonAncestor which takes root node and 2 nodes as parameters to check LCA of given 2 nodes.
