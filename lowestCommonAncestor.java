@@ -8,9 +8,9 @@
 //             a)leftsubtree<root node
 //              b)rightsubtree>rootnode
  //             c)right and left subtrees are also bst with no duplicates 
-            The ancestors are the nodes which exists in a path to reach certain node.hence,
-            lowestcommon ancestor is bascically the first ancestor which is common to both the given nodes.
-          So i understood i need to find lowest means the first ancestor common to both nodes.
+ //           The ancestors are the nodes which exists in a path to reach certain node.hence,
+//            lowestcommon ancestor is bascically the first ancestor which is common to both the given nodes.
+//          So i understood i need to find lowest means the first ancestor common to both nodes.
 //       2)firsti have created a static class TreeNde which declares variables for root node, left child and right child.
 //       3)Then i have created a constructor to initalizes the node with a given value and setting both left and right child references to null.
 //       4) here i have created a function lowestCommonAncestor which takes root node and 2 nodes as parameters to check LCA of given 2 nodes.
