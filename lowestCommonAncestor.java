@@ -1,4 +1,6 @@
-
+//Medium 1 
+Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.
+      
 import java.util.*;
 public class lowestCommonAncestor{
 
